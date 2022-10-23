@@ -132,7 +132,7 @@ img {
   background-color: #f1CAC6;
 }
 
-/* @media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) { 
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -176,7 +176,7 @@ img {
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
-}*/
+}
 
 /*Active menu*/
 .active::after {
@@ -186,7 +186,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 1.5rem;
-  background-color:;
+  background-color:var(--first-color);
 }
 
 /*=== Show menu ===*/
